@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&family=Poppins:wght@400;500;600;700;900&display=swap");
+
+:root {
+  --main-color: #482010;
+  --second-color: #723e29;
+  --bg-color: #fff3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Style the header */
+header {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  padding: 20px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+#team h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--main-color);
+  margin: 1rem;
+}
+/* Style the member */
+.member {
+  padding: 2.5rem;
+  background-color: #fff6f6;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 260px;
+  margin: 5px;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.member h3 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.member a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media a {
+  margin: 0 5px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #4e4e4e;
+}
+
+.social-media a:hover {
+  color: var(--main-color);
+}
+
+.member-con {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Style email icon */
+.member p i {
+  font-size: 1.5rem;
+  margin-right: 5px;
+  transform: translate(0, 5px);
+  cursor: pointer;
+}

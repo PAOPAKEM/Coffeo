@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/user_admin.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <div class="nav-con">
+        <div class="logo">
+          <a href="home.html"><i class='bx bxs-coffee-alt'></i>&nbsp; COFFEO</a>
+        </div>
+
+        <ul class="menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="Product.html">Product</a></li>
+          <li><a href="Product_Admin.html">Product Admin</a></li>
+          <li><a href="user_admin.html">User Admin</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+        <a href="#" id="login">Log in</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="container-title">
+      <div class="container-head">
+        <h2>User Management</h2>
+        <div class="container-head-head">
+          <div class="add_user">
+            <a href="add_admin.html"><i class='bx bx-plus-circle'></i>Add User</a>
+          </div>
+          <div class="search-search">
+            <form action="" class="search-bar">
+              <input type="text" name="searchuser" placeholder="Search..">
+              <button type="submit"><i class='bx bx-search'></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container-table">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Role</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>A A</td>
+              <td>A@A.com</td>
+              <td>Admin</td>
+              <td><a href="update_admin.html"><button title="Update">Update</button></a> <button
+                  title="Delete">Delete</button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>B B</td>
+              <td>B@B.com</td>
+              <td>User</td>
+              <td><a href="update_admin.html"><button title="Update">Update</button></a> <button
+                  title="Delete">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Coffeo Blend. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

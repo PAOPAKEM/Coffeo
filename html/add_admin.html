@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Users</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/user_admin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="home.html"><i class='bx bxs-coffee-alt'></i>&nbsp; COFFEO</a>
+                </div>
+
+                <ul class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Product.html">Product</a></li>
+                    <li><a href="Product_Admin.html">Product Admin</a></li>
+                    <li><a href="user_admin.html">User Admin</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+                <a href="#" id="login">Log in</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="add_user-container">
+            <form>
+                <fieldset class="add_user-title">
+                    <legend>
+                        <h2>Add Users</h2>
+                    </legend>
+                    <label for="Firstname">Firstname</label><br>
+                    <input type="text" id="Firstname" name="Firstname" placeholder="Firstname" pattern="[A-Za-z]{1,}"
+                        required><br>
+                    <label for="Lastname">Lastname</label><br>
+                    <input type="text" id="Lastname" name="Lastname" placeholder="Lastname" pattern="[A-Za-z]{1,}"
+                        required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="xxxxx@xxxxx.xxx" required><br>
+                    <label for="Role">Roles</label><br>
+                    <select id="Role" name="Role">
+                        <option value="-" selected disabled></option>
+                        <option value="Admin">Admin</option>
+                        <option value="User">User</option>
+                    </select><br>
+                    <input type="submit" name="Add" id="add_submit" value="Add">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="container_back">
+        <a href="user_admin.html" id="back_page">Back to page</a>
+    </div>
+</body>
+
+</html>

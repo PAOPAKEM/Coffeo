@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&family=Poppins:wght@400;500;600;700;900&display=swap");
+
+:root {
+  --main-color: #482010;
+  --second-color: #723e29;
+  --bg-color: #fff3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Hero Section*/
+.hero {
+  background-color: var(--bg-color);
+  margin-top: 80px;
+  padding-top: 30px;
+}
+
+.hero-info {
+  width: 100%;
+  padding: 2rem;
+  padding-left: 0;
+}
+
+.hero-info h1 {
+  font-size: 3.5rem;
+  line-height: 1.2em;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.hero-info p {
+  font-size: 1rem;
+  color: grey;
+  font-weight: 300;
+  width: fit-content;
+}
+
+.hero-info .hero-btn {
+  display: inline-block;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 45px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.hero-con {
+  display: flex;
+}
+
+.hero-img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 45px;
+}
+
+/* Product */
+.product {
+  margin-top: 2rem;
+}
+
+.product-con {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.product-header p {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* User Admin Page */
+.container-title {
+  margin-top: 100px;
+  max-width: 1140px;
+}
+
+.container-head {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-color);
+  align-items: center;
+  padding-left: 10px;
+}
+
+.container-head-head {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 1140px;
+  background-color: var(--second-color);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  color: var(--bg-color);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid var(--main-color);
+}
+
+.container-head h2 {
+  padding: 0;
+}
+
+.search-search {
+  width: 100%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  background-color: var(--bg-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 12px 10px;
+}
+
+.search-bar button i {
+  color: white;
+}
+
+.search-bar button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--second-color);
+}
+
+.container-head h2 {
+  margin-left: 10px;
+  color: var(--bg-color);
+}
+
+.add_user {
+  width: 180px;
+  text-align: center;
+  display: flex;
+  border-radius: 10px;
+}
+
+.add_user a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  border: 0px;
+  background-color: var(--bg-color);
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+.add_user a i {
+  font-size: 25px;
+  color: var(--second-color);
+  margin-right: 5px;
+}
+
+.add_user a:hover i {
+  color: white;
+  margin-right: 5px;
+}
+
+.add_user a:hover {
+  background-color: #607d3b;
+  color: var(--bg-color);
+}
+
+td button {
+  border-radius: 10px;
+  width: 60px;
+  border: 0px;
+  background-color: var(--bg-color);
+  color: var(--second-color);
+}
+
+/* Add User Page */
+.add_user-container {
+  margin-top: 100px;
+  max-width: 1140px;
+}
+
+.add_user-title {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  width: 75%;
+  color: var(--second-color);
+  border-radius: 10px;
+  border-color: var(--second-color);
+}
+
+#add_submit {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 5px;
+  width: 70px;
+  background-color: green;
+  color: white;
+  padding: 5px;
+}
+
+.add_user-title input {
+  width: 50%;
+  padding: 3px;
+}
+
+.add_user-title select {
+  width: 50%;
+}
+
+/* Update_Admin */
+#update_user {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 5px;
+  width: 70px;
+  background-color: tomato;
+  color: white;
+  padding: 5px;
+}
+
+.container_back {
+  display: flex;
+  justify-content: right;
+  margin-right: 29%;
+  margin-top: 5px;
+}
+
+#back_page {
+  text-decoration: none;
+  color: var(--second-color);
+}
