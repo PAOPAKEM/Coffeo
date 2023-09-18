@@ -22,100 +22,6 @@ html {
   margin: 0 auto;
 }
 
-/* Hero Section*/
-.hero {
-  background-color: var(--bg-color);
-  margin-top: 80px;
-  padding-top: 30px;
-}
-
-.hero-info {
-  width: 100%;
-  padding: 2rem;
-  padding-left: 0;
-}
-
-.hero-info h1 {
-  font-size: 3.5rem;
-  line-height: 1.2em;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  color: var(--main-color);
-}
-
-.hero-info p {
-  font-size: 1rem;
-  color: grey;
-  font-weight: 300;
-  width: fit-content;
-}
-
-.hero-info .hero-btn {
-  display: inline-block;
-  background-color: var(--main-color);
-  color: #fff;
-  padding: 1rem 1.5rem;
-  border-radius: 45px;
-  text-decoration: none;
-  margin-top: 2rem;
-}
-
-.hero-con {
-  display: flex;
-}
-
-.hero-img {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-
-.hero-img img {
-  width: 100%;
-  height: 90%;
-  object-fit: cover;
-  border-radius: 45px;
-}
-
-/* Product */
-.product {
-  margin-top: 2rem;
-}
-
-.product-con {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.product-card {
-  text-align: center;
-  border: 1px solid #ddd;
-  padding: 20px;
-  width: 300px;
-}
-
-.product-card img {
-  max-width: 100%;
-  height: auto;
-}
-
-.product-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.product-header h2 {
-  font-size: 2rem;
-  color: #333;
-}
-
-.product-header p {
-  font-size: 16px;
-  color: #777;
-  margin-top: 10px;
-}
-
 /* User Admin Page */
 .container-title {
   margin-top: 100px;
@@ -206,7 +112,7 @@ td {
 }
 
 .add_user {
-  width: 180px;
+  width: 100%;
   text-align: center;
   display: flex;
   border-radius: 10px;
@@ -219,24 +125,20 @@ td {
   width: 100%;
   border-radius: 10px;
   border: 0px;
-  background-color: var(--bg-color);
-  color: var(--second-color);
+  background-color: #607d3b;
+  color: #fff;
   text-decoration: none;
+  padding: 5px;
 }
 
 .add_user a i {
   font-size: 25px;
-  color: var(--second-color);
-  margin-right: 5px;
-}
-
-.add_user a:hover i {
-  color: white;
+  color: #fff;
   margin-right: 5px;
 }
 
 .add_user a:hover {
-  background-color: #607d3b;
+  background-color: #76b622;
   color: var(--bg-color);
 }
 

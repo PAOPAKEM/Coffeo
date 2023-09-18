@@ -119,4 +119,12 @@ html {
 
 #add-to-cart-button {
   padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: var(--second-color);
+  color: var(--bg-color);
+}
+
+#add-to-cart-button:active {
+  transform: translateY(2px);
 }
