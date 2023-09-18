@@ -40,7 +40,6 @@ html {
   line-height: 1.2em;
   margin-bottom: 1rem;
   font-weight: 800;
-  /* color: var(--main-color); */
   background: rgb(72, 32, 16);
   background: linear-gradient(
     274deg,
