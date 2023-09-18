@@ -22,14 +22,12 @@ html {
   margin: 0 auto;
 }
 
-
 /* Hero Section*/
 .hero {
   background-color: var(--bg-color);
   margin-top: 80px;
   padding-top: 30px;
 }
-
 
 .hero-info {
   width: 100%;
@@ -41,8 +39,17 @@ html {
   font-size: 3.5rem;
   line-height: 1.2em;
   margin-bottom: 1rem;
-  font-weight: 700;
-  color: var(--main-color);
+  font-weight: 800;
+  /* color: var(--main-color); */
+  background: rgb(72, 32, 16);
+  background: linear-gradient(
+    274deg,
+    rgba(72, 32, 16, 1) 31%,
+    rgba(153, 102, 81, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .hero-info p {
@@ -60,10 +67,10 @@ html {
   border-radius: 45px;
   text-decoration: none;
   margin-top: 2rem;
-  transition: .1s;
+  transition: 0.1s;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
   transform: scale(1.02);
 }
 
@@ -129,5 +136,3 @@ html {
   align-items: center;
   justify-content: center;
 }
-
-
