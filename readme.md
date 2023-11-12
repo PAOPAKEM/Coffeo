@@ -5,7 +5,7 @@ Coffeo is a website designed for coffee sellers, specializing in freshly ground 
 ## How to Download and Run? 💖
 
 1. Download the zip file provided.
-2. Extract the zip file, which includes three folders: `css`, `html`, and `Single Product`. Inside the `html` folder, you'll find two files: `readme.txt` and `Gr9Diagram.pdf`.
+2. Extract the zip file, which includes three folders: `css`, `html`, and `Single Product`.
 3. Run the website using one of the following methods:
     - Directly through a browser.
     - Using a code editor like Visual Studio Code with the Live Server extension.
@@ -34,8 +34,5 @@ The website consists of 7 pages, each with specific purposes and functionalities
 
 7. **About Us Page**
    - Provides information about the website creators and contact details for each person involved.
-
-## Navigational Diagram
-   - Refer to the attached `Gr9Diagram.pdf` for a navigational diagram connecting each page.
 
 Feel free to explore and enjoy Coffeo's offerings! ☕✨
