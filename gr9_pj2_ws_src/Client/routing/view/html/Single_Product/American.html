@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <!-- link css -->
+  <link rel="stylesheet" href="../../css/nav.css">
+  <link rel="stylesheet" href="../../css/single_product.css">
+  <!-- Icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <div class="nav-con">
+        <div class="logo">
+          <a href="/"><i class='bx bxs-coffee-alt'></i>&nbsp; COFFEO</a>
+        </div>
+
+        <ul class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/product">Product</a></li>
+          <li><a href="/prod-manage">Product Admin</a></li>
+          <li><a href="/user-manage">User Admin</a></li>
+          <li><a href="/about">About Us</a></li>
+        </ul>
+        <a href="/login" id="login">Log in</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Go back to Product Page -->
+  <div class="container">
+    <div class="go-back">
+      <a href="../Product.html">&#x276E; Go back</a>
+    </div>
+  </div>
+
+  <!-- Single Product Detail -->
+  <div class="container">
+    <section class="product-container">
+      <div class="product-image">
+        <img src="https://cdn.discordapp.com/attachments/1151198513078730862/1151198862569127946/america.png"
+          alt="Product Image" width="200">
+      </div>
+      <div class="product-details">
+        <div class="product-title">American Coffee</div>
+        <div class="level">
+          <i class='bx bxs-circle'></i>
+          <i class='bx bxs-circle'></i>
+          <i class='bx bx-circle'></i>
+          &nbsp; medium
+        </div>
+        <div class="product-price">$11.99</div>
+        <hr style="margin-top: 10px;">
+        <div class="product-description">
+          <p>Savor the classic taste of America with our American Medium Roast Coffee Beans. This medium-bodied brew
+            boasts a balanced flavor profile, offering a rich, yet mellow cup with hints of caramel and a touch of
+            brightness.</p>
+        </div>
+        <div class="add-to-cart">
+          <input type="number" class="quantity-input" value="1" min="1" max="50">
+          <button id="add-to-cart-button">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Recomended Product Section -->
+  <div class="container">
+    <div class="recommendations">
+      <h3>Recommended Products</h3>
+    </div>
+    <div class="product-card-con">
+      <a href="Italian.html" style="text-decoration: none;color: black;">
+        <div class="product-card">
+          <img
+            src="https://media.discordapp.net/attachments/1151198513078730862/1151198861210169405/italian.png?width=417&height=662">
+          <div class="short-info">
+            <h3>Italian</h3>
+            <p>Light roast</p>
+            <p>$9.99</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="Morocan.html" style="text-decoration: none;color: black;">
+        <div class="product-card">
+          <img
+            src="https://media.discordapp.net/attachments/1151198513078730862/1151198861734445106/morocan.png?width=417&height=662">
+          <div class="short-info">
+            <h3>Morocan</h3>
+            <p>Medium roast</p>
+            <p>$10.99</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="Brazil.html" style="text-decoration: none;color: black;">
+        <div class="product-card">
+          <img
+            src="https://media.discordapp.net/attachments/1151198513078730862/1151198863336681472/brazil.png?width=417&height=662">
+          <div class="short-info">
+            <h3>Brazil</h3>
+            <p>Dark roast</p>
+            <p>$13.99</p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 Coffeo Blend. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

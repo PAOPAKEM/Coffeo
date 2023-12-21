@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&family=Poppins:wght@400;500;600;700;900&display=swap");
+
+:root {
+  --main-color: #482010;
+  --second-color: #723e29;
+  --bg-color: #fff3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Hero Section*/
+.hero {
+  background-color: var(--bg-color);
+  margin-top: 80px;
+  padding-top: 30px;
+}
+
+.hero-info {
+  width: 100%;
+  padding: 2rem;
+  padding-left: 0;
+}
+
+.hero-info h1 {
+  font-size: 3.5rem;
+  line-height: 1.2em;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  background: rgb(72, 32, 16);
+  background: linear-gradient(
+    274deg,
+    rgba(72, 32, 16, 1) 31%,
+    rgba(153, 102, 81, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-info p {
+  font-size: 1rem;
+  color: grey;
+  font-weight: 300;
+  width: fit-content;
+}
+
+.hero-info .hero-btn {
+  display: inline-block;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 45px;
+  text-decoration: none;
+  margin-top: 2rem;
+  transition: 0.1s;
+}
+
+.hero-btn:hover {
+  transform: scale(1.02);
+}
+
+.hero-con {
+  display: flex;
+}
+.hero-img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.hero-img img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 45px;
+}
+
+/* Product Section*/
+.product {
+  margin-top: 6rem;
+}
+.product-con {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 15px;
+  margin-top: 3rem;
+}
+
+.product-card {
+  text-align: center;
+  border: 2px solid #d6ccc0;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  width: 60%;
+  transform: translate(0, -45px);
+}
+
+.product-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.product-header p {
+  font-size: 16px;
+  color: #777;
+}
+
+.user_table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

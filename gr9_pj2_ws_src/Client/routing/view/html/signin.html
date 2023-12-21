@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - COFFEO</title>
+  <link rel="stylesheet" href="/css/login">
+  <style>
+    /* Assuming /css/login.css is your stylesheet */
+    /* Internal  style  for sign in*/
+    /* General form styling */
+    .login .wrapper {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+      background: #f2f2f2;
+      border-radius: 10px;
+    }
+
+    .login h1 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    /* Input fields styling */
+    .login input[type="text"],
+    .login input[type="email"],
+    .login input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    /* Button styling */
+    .login .btn {
+      width: 100%;
+      padding: 10px;
+      margin: 20px 0;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login .btn:hover {
+      background: #0056b3;
+    }
+
+    /* Link to login page */
+    .login a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .login a:hover {
+      text-decoration: underline;
+    }
+
+    /* Centering the form on the page */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f2f2f2;
+    }
+
+    .wrapper {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="signin-form">
+    <div class="wrapper">
+      <h1>Sign Up</h1>
+      <form action="/signin-submit" method="post">
+        <input type="text" placeholder="Username" name="username" required>
+        <input type="email" placeholder="Email" name="email" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <button type="submit" class="btn">Register</button>
+      </form>
+      <a href="/login">Already have an account? Log in</a>
+    </div>
+  </div>
+</body>
+
+</html>

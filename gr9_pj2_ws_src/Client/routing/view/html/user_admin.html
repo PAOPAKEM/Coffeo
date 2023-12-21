@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <link rel="stylesheet" href="/css/nav">
+  <link rel="stylesheet" href="/css/user-admin">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <div class="nav-con">
+        <div class="logo">
+          <a href="/home"><i class='bx bxs-coffee-alt'></i>&nbsp; COFFEO</a>
+        </div>
+
+        <ul class="menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/home/product">Product</a></li>
+          <li><a href="/home/prod-manage">Product Admin</a></li>
+          <li><a href="/home/user-manage">User Admin</a></li>
+          <li><a href="/home/about">About Us</a></li>
+        </ul>
+        <a href="/" id="login">Log out</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="container-title">
+      <div class="container-head">
+        <h2>User Management</h2>
+        <div class="container-head-head">
+          <div class="add_user">
+            <a href="/add-user"><i class='bx bx-plus-circle'></i>Add User</a>
+          </div>
+          <div class="search-search">
+            <form action="" class="search-bar">
+              <input type="text" name="searchuser" placeholder="Search..">
+              <button type="submit"><i class='bx bx-search'></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container-table">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Username</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Coffeo Blend. All rights reserved.</p>
+  </footer>
+  <script src="/js/user-admin"></script>
+</body>
+
+</html>

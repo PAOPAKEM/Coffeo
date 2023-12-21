@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEO</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="/css/nav">
+    <link rel="stylesheet" href="/css/prod-manage">
+    <!-- Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="/home"><i class='bx bxs-coffee-alt'></i>&nbsp; COFFEO</a>
+                </div>
+
+                <ul class="menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/home/product">Product</a></li>
+          <li><a href="/home/prod-manage">Product Admin</a></li>
+          <li><a href="/home/user-manage">User Admin</a></li>
+          <li><a href="/home/about">About Us</a></li>
+                </ul>
+                <a href="/" id="login">Log out</a>
+            </div>
+        </div>
+    </nav>
+    <section class="add_page">
+        <div class="container">
+            <form method="post" action="/submit-product">
+                <div class="product_form">
+                    <div class="add_form">
+                        <input type="text" id="product_name" name="product-name" placeholder="product name" required>
+                    </div>
+                    <div class="product_info">
+                        <div class="pro-img">
+                            <!-- Upload image -->
+                            <input type="file" id="product_image" name="product_image" accept="image/*">
+                        </div>
+                        <textarea id=" full_info" placeholder="detail description" required maxlength="200" rows="5" cols="7"></textarea>
+                    </div>
+                    <div class="select">
+                        <select id="product_roast" required>
+                            <option value="Light">Light</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Dark">Dark</option>
+                        </select>
+                        <input type="number" id="product_price" name="product-price" placeholder="product price" value="1" min="1" max="50" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn">Update Product</button><br>
+                <a href="/prod-manage" id="back_page">Back to page</a>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Coffeo Blend. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

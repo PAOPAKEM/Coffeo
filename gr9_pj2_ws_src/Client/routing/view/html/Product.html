@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/nav">
+    <link rel="stylesheet" href="/css/product">
+    <title>COFFEO</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="/home"><i class='bx bxs-coffee-alt'></i>&nbsp; COFFEO</a>
+                </div>
+
+                <ul class="menu">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/home/product">Product</a></li>
+                    <li><a href="/home/prod-manage">Product Admin</a></li>
+                    <li><a href="/home/user-manage">User Admin</a></li>
+                    <li><a href="/home/about">About Us</a></li>
+                </ul>
+                <a href="/" id="login">Log out</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="Pre-info-product">
+        <div class="container">
+            <div class="S_wrapper">
+                <div id="search-container">
+                    <input type="search" id="search-input" placeholder="Product Name" name="search-input">
+                    <button type="submit" id="btnS" class="btnS">Search</button>
+                </div>
+            </div>
+
+            <!-- Drop Down Filter -->
+            <div id="S_btn">
+                <select class="btn-cri" id="select-roast" required name="level">
+                    <option value="-">Roasts</option>
+                    <option value="Light">Light</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Dark">Dark</option>
+                </select>
+
+                <select class="btn-cri" id="select-price" required name="price">
+                    <option value="-">Price</option>
+                    <option value="Low">Low</option>
+                    <option value="High">High</option>
+                </select>
+
+                <select class="btn-cri" id="select-country" required name="country">
+                    <option value="-">Country</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="America">America</option>
+                </select>
+            </div>
+
+            <div class="product">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Coffeo Blend. All rights reserved.</p>
+    </footer>
+    <script src="/js/callProductService"></script>
+</body>
+
+</html>
