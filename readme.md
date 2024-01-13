@@ -1,38 +1,77 @@
-# Welcome to Coffeo ☕ Website
+Node.js Installation
 
-Coffeo is a website designed for coffee sellers, specializing in freshly ground and roasted coffee.
+Before you started, make sure you have the following prerequisites installed which are:
 
-## How to Download and Run? 💖
+    A terminal or command prompt
+    A reliable internet connection
 
-1. Download the zip file provided.
-2. Extract the zip file, which includes three folders: `css`, `html`, and `Single Product`.
-3. Run the website using one of the following methods:
-    - Directly through a browser.
-    - Using a code editor like Visual Studio Code with the Live Server extension.
+Installation Steps
+Step 1: Download Node.js
 
-## How to Use the Website? ✨
+Visit the official Node.js website at https://nodejs.org and click on the "Downloads" tab.
+Choose the appropriate version for your operating system. For instane, Linux / Windows / Macintosh
 
-The website consists of 7 pages, each with specific purposes and functionalities.
+Step 2: Run the installer
 
-1. **Home Page**
-   - Landing page providing information about Coffeo's business and serving as a platform for product promotion.
+Step 3: Add Path environmet. Setting > Advance System Setting > Environment variable > Add Path
 
-2. **Login Page**
-   - Used to authenticate the admin for accessing product and account management. Admins can log in to the admin panel.
 
-3. **Product Page (Search Page)**
-   - Displays product samples and allows users to search for products using keywords such as producer name, roast level, or price. Filtering options are also available.
+Express.js Installation
+Step 1: download the project and Extract ZIP files then open terminal and follow this command 
+	
+	cd gr9_pj1_ID_006_014_080_096/
 
-4. **Single Product Page**
-   - Displays detailed information about a single product, including images, price, producer name, and roast level. Accessed from the Product Page.
+Step 2: Initialize the Project
+	npm init -y
 
-5. **Product Admin Page**
-   - Exclusively for admin use, this page manages product data, allowing admins to add, edit, delete, and search for products.
+Step 3: Install Express.js
+	npm install express
 
-6. **User Admin Page**
-   - Admin-only page for managing user data, including adding, editing, deleting, and searching for user information.
+MySQL Database Installation
+Step 1: Download MySQL Installer
 
-7. **About Us Page**
-   - Provides information about the website creators and contact details for each person involved.
+Visit the official MySQL website at https://dev.mysql.com/downloads/installer/ 
 
-Feel free to explore and enjoy Coffeo's offerings! ☕✨
+Step 2: Verify MySQL Installation
+	mysql --version
+
+
+To RUN this Project 
+in order to run this project we have 2 option
+1 Download and RUN on the local Mechine
+2 RUN on Ubuntu Server
+
+
+To download and RUN locally on the Local Mechine
+
+Step 1: install NPM in order to Generate package.json
+	npm install
+
+Step 2: Go to MySQL workbench Click connect to the workbench to starts the MySQL server or type this command to the terminal
+	sqlcmd 
+
+Step 3: use the command below to starts the project
+	npm start
+
+To run on Ubuntu server
+
+Step 1: Open the "Settings"
+
+Step 2: Go to "Apps" and then "Optional Features."
+
+Step 3: find "OpenSSH Client" and "OpenSSH Server." then install
+
+Step 4 : check the installation by
+	ssh -V
+
+
+After ssh installation, open new terminal
+
+Step 5: ssh team19@203.159.93.114
+
+Step 6: then type the Password: GZBzktg9
+
+Step 7: open 2 terminal for Client and Service
+
+Step 8: type the following command
+	npm start
