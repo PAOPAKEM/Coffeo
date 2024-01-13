@@ -36,6 +36,8 @@ npm start
 ```
 ![Terminal](https://cdn.discordapp.com/attachments/951363246990950411/1195673025723502652/image.png?ex=65b4d847&is=65a26347&hm=7edb581673624af77bcfa7c98ccfb36fb5b6942f5257e5f4447da262792cc5ee&)
 
-### Step 6: Start the Project
-In each terminal, start the project with the command:
+### Step 6: Access the Web Application
+- Once the project is running, open a web browser.
+- Navigate to the URL where your web application is hosted. `[http://203.159.93.114:8037/](http://203.159.93.114:8037/)`
+
 
