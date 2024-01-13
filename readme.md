@@ -25,6 +25,6 @@ npm start
 
 ### Step 6: Access the Web Application
 - Once the project is running, open a web browser.
-- Navigate to the URL where your web application is hosted. `[http://203.159.93.114:8037/](http://203.159.93.114:8037/)`
+- Navigate to the URL where your web application is hosted. `[http://203.159.93.114:8037/](/http://203.159.93.114:8037/)`
 
 
