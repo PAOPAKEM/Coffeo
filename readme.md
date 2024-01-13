@@ -2,19 +2,6 @@
 
 Follow these steps to set up and run the project on an Ubuntu server.
 
-## Initial Setup
-
-### Step 1: Open Settings
-Access your system settings.
-
-### Step 2: Install SSH
-- Navigate to **Apps** > **Optional Features**.
-- Find and install **OpenSSH Client** and **OpenSSH Server**.
-
-### Step 3: Verify SSH Installation
-- Open a terminal.
-- Check the installation with the command:
-- 
 ## Connecting to the Server
 
 ### Step 4: SSH into the Server
