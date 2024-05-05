@@ -21,7 +21,7 @@ ssh team19@203.159.93.114
 ```
 npm start
 ```
-![Terminal](https://cdn.discordapp.com/attachments/951363246990950411/1195673025723502652/image.png?ex=65b4d847&is=65a26347&hm=7edb581673624af77bcfa7c98ccfb36fb5b6942f5257e5f4447da262792cc5ee&)
+![Terminal](https://cdn.discordapp.com/attachments/951363246990950411/1195673025723502652/image.png?ex=6638ae47&is=66375cc7&hm=ef393ec9e378636183fef5b9a6910f90c12059dfd1300dd3dd44d6fe4e06118e&)
 
 ### Step 6: Access the Web Application
 - Once the project is running, open a web browser.
